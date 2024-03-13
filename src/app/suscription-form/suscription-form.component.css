@@ -1,21 +1,19 @@
 .card {
   background-color: var(--secondary-color);
+  width: 1200px;
 }
 
-input[type="text"],
-input[type="email"] {
-  height: 60px;
-  padding-left: 20px;
-  font-size: 13px;
-  width: 100%;
-}
-
-.btn-sub {
+.btn-theme {
   height: 58px;
   border: none;
   font-size: 13px;
   background-color: var(--primary-color);
   font-family: "Roboto", sans-serif;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
 }
 
 .subs-text {
